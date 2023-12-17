@@ -21,7 +21,7 @@ public class AlgorithmComplexity {
      */
     public Complexity badLinearSearch() {
         Complexity complexity = Complexity.O_N;
-        return complexity
+        return complexity;
     }
 
     /**
@@ -29,7 +29,7 @@ public class AlgorithmComplexity {
      */
     public Complexity arrayIndexItemAccess() {
         Complexity complexity = Complexity.O_1;
-        return complexity
+        return complexity;
     }
 
     /**
@@ -37,7 +37,7 @@ public class AlgorithmComplexity {
      */
     public Complexity binarySorting() {
         Complexity complexity = Complexity.O_LOG_N;
-        return complexity
+        return complexity;
     }
 
     /**
@@ -45,6 +45,6 @@ public class AlgorithmComplexity {
      */
     public Complexity twoCycleSorting() {
         Complexity complexity = Complexity.O_N_2;
-        return complexity
+        return complexity;
     }
 }
