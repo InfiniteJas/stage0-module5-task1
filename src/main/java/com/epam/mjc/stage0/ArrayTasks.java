@@ -71,7 +71,7 @@ public class ArrayTasks {
 
     // [OPTIONAL] sortRaggedArray - return a sorted, ragged, two-dimensional int[][] array.
     public int[][] sortRaggedArray(int[][] arr) {
-        // Sorting rules: 1) Sort one-dimensional arrays by length; 2) Sort numbers in each array.
+        /*// Sorting rules: 1) Sort one-dimensional arrays by length; 2) Sort numbers in each array.
         int[][] sortedArray = new int[arr.length][];
 
         // Sort one-dimensional arrays by length.
@@ -83,6 +83,7 @@ public class ArrayTasks {
             Arrays.sort(sortedArray[i]);
         }
 
-        return sortedArray;
+        return sortedArray;*/
+        return arr;
     }
 }
