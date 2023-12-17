@@ -15,31 +15,32 @@ import com.epam.mjc.stage0.utils.Complexity;
  * Complexity.O_N           -> O(N)
  */
 public class AlgorithmComplexity {
+
     /**
      * Return the linear search complexity if the element you are looking for is at the end of the array.
      */
     public Complexity badLinearSearch() {
-        return Complexity.O_N;
+        Complexity complexity = Complexity.O_N;
     }
 
     /**
      * Return the complexity of accessing an array element by index.
      */
     public Complexity arrayIndexItemAccess() {
-        return Complexity.O_1;
+        Complexity complexity = Complexity.O_1;
     }
 
     /**
      * Return the complexity of a binary search.
      */
     public Complexity binarySorting() {
-        return Complexity.O_LOG_N;
+        Complexity complexity = Complexity.O_LOG_N;
     }
 
     /**
      * Return the complexity of the twoCycleSorting algorithm.
      */
     public Complexity twoCycleSorting() {
-        return Complexity.O_N_2;
+        Complexity complexity = Complexity.O_N_2;
     }
 }
